@@ -10,7 +10,3 @@ Info:
 {{ page.conent | markdownify }}
 
 <hr>
-
-{% if page.show %}
-    {% include character_show.html show=page.show %}
-{% endif %}
