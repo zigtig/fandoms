@@ -1,0 +1,8 @@
+{% for tag in site.shows %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for show in tag[1] %}
+      <li><a href="{{ show.url }}">{{ show.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}

@@ -5,6 +5,7 @@ collections:
   characters:
     output: true
     sort_by: show
+    permalink: /:collection/:name
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:

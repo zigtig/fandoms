@@ -1,0 +1,7 @@
+{% assign character_shows = site.characters | where: "show", include.show %}
+<h3>{{ include.show }}</h3>
+<ul>
+  {% for tag in character_shows %}
+    <li><a href="{{ show.url }}">{{ show.title }}</a></li>
+  {% endfor %}
+</ul>
