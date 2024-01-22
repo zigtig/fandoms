@@ -11,4 +11,4 @@ Info:
 
 <hr>
 
-{% include character_shows character={{page.show}} %}
+{% include character_shows character=page.show %}
