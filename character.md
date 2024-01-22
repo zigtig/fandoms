@@ -11,4 +11,6 @@ Info:
 
 <hr>
 
-{% include character_shows.html character=page.show %}
+{% if page.show %}
+    {% include character_show.html show=page.show %}
+{% endif %}
