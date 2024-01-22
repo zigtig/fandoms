@@ -1,7 +1,15 @@
+title: Animes I'm into
+description: アニメ / Animes I'm into as of 2024
+
+collections:
+  characters:
+    output: true
+    sort_by: show
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: Animes I'm into
-description: アニメ / Animes I'm into as of 2024
+- jekyll-paginate
+
 show_downloads: false
 google_analytics: G-BTYGFCLRKR
