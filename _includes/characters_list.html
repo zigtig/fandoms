@@ -1,4 +1,4 @@
 {% for character in site.characters %}
-  <h2><a href="{% link {{ character.url }} %}">{{ character.name }}</a> - {{ character.show }}</h2>
+  <h2><a href="{{ character.url }}">{{ character.name }}</a> - {{ character.show }}</h2>
   <p>{{ character.content | markdownify }}</p>
 {% endfor %}
