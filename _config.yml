@@ -3,10 +3,10 @@ description: アニメ / Animes I'm into as of 2024
 collections:
   characters:
     output: true
-    permalink: /characters/:path/
   shows:
     output: true
-    permalink: /shows/:path/
+  pages:
+    output: true
 
 plugins:
   - jekyll-remote-theme
