@@ -1,3 +1,6 @@
+---
+permalink: /mario/
+---
 # Mario
 
 ![Mario](/assets/img/mario.png)
