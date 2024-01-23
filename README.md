@@ -13,7 +13,7 @@ These are some of the shows and characters
 {% include characters_list.html %}
 
 ## Other fandoms
-* [Mario]({% link _pages/mario.md %})
+* [Mario]({{ site.baseurl }}{% link pages/mario %})
 * Legend of Zelda
 * Minecraft
 * Project Sekai: Colorful Stage
