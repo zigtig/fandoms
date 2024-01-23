@@ -1,8 +1,9 @@
-{% for show_hash in site.data.shows %}
-  <h3>{{ show_hash[0] }}</h3>
-  <ul>
-    {% for show in show_hash[1] %}
-      <li><a href="{{ show.url }}">{{ show.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
+<ul>
+  {% for show in site.data.shows %}
+    <li>
+      <a href="{{ show.url }}">
+        {{ show.title }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
