@@ -1,7 +1,7 @@
 ---
 name: Tanjiro Kamado
 show: Demon Slayer
-image: Tanjiro_colored_body.webp
+image: tanjiro.webp
 ---
-a bright main character who stands out in his dark narrative
+A bright main character who stands out in his dark narrative
 

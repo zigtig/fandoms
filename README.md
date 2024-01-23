@@ -11,7 +11,7 @@ These are some of the shows and characters
 {% include characters_list.html %}
 
 ## Other fandoms
-* Super Mario
+* [Mario]({% link _pages/mario.md %})
 * Legend of Zelda
 * Minecraft
 * Project Sekai: Colorful Stage

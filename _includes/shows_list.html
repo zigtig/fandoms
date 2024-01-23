@@ -1,7 +1,7 @@
 <ul>
   {% for show in site.data.shows %}
     <li>
-      <a href="{{ site.baseurl }}{{ show.url }}">
+      <a href="{{ site.baseurl }}{% link show.url %}">
         {{ show.title }}
       </a>
     </li>

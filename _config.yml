@@ -5,7 +5,22 @@ collections:
     output: true
   shows:
     output: true
+  pages:
+    output: true
 remote_theme: pages-themes/minimal@v0.2.0
+
+defaults:
+  - scope:
+      path: ""
+      type: "shows"
+    values:
+      layout: "show"
+  - scope:
+      path: ""
+      type: "characters"
+    values:
+      layout: "character"
+
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
