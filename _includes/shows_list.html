@@ -1,5 +1,5 @@
 <ul>
-  {% for show in site.data.shows %}
+  {% for show in site.shows %}
     <li>
       <a href="{{ site.baseurl }}/shows/{{ show.title | slugify }}">
         {{ show.title }} ({{show.rating}}/5)

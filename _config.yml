@@ -3,28 +3,10 @@ description: アニメ / Animes I'm into as of 2024
 collections:
   characters:
     output: true
+    permalink: /characters/:path/
   shows:
     output: true
-  pages:
-    output: true
-remote_theme: pages-themes/minimal@v0.2.0
-
-defaults:
-  - scope:
-      path: "/shows/"
-      type: "shows"
-    values:
-      layout: "show"
-  - scope:
-      path: "/characters/"
-      type: "characters"
-    values:
-      layout: "character"
-  - scope:
-      path: "/pages/"
-      type: "pages"
-    values:
-      layout: "page"
+    permalink: /shows/:path/
 
 plugins:
   - jekyll-remote-theme
@@ -33,3 +15,5 @@ plugins:
 show_downloads: false
 google_analytics: G-BTYGFCLRKR
 baseurl: /fandoms
+remote_theme: pages-themes/minimal@v0.2.0
+
