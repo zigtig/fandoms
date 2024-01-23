@@ -1,8 +1,8 @@
 <ul>
   {% for show in site.data.shows %}
     <li>
-      <a href="{{ site.baseurl }}{{ show.title | slugify }}">
-        {{ show.title }}
+      <a href="{{ site.baseurl }}/shows/{{ show.title | slugify }}">
+        {{ show.title }} ({{show.rating}}/5)
       </a>
     </li>
   {% endfor %}
