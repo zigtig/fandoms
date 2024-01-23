@@ -1,7 +1,7 @@
 <ul>
   {% for show in site.data.shows %}
     <li>
-      <a href="{{ site.baseurl }}{{ show.name | slugify }}">
+      <a href="{{ site.baseurl }}{{ show.title | slugify }}">
         {{ show.title }}
       </a>
     </li>
