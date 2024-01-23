@@ -1,7 +1,7 @@
 <ul>
   {% for show in site.shows %}
     <li>
-      <a href="{{ site.baseurl }}/shows/{{ show.title | slugify }}">
+      <a href="{{ site.baseurl }}{{ show.url }}">
         {{ show.title }} ({{show.rating}}/5)
       </a>
     </li>
