@@ -9,7 +9,7 @@ https://zigtig.github.io/fandoms/
 {% include shows_list.html %}
 
 # Characters
-
+{{ site.characters|length }}
 {% include characters_list.html %}
 
 ## Other fandoms
