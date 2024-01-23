@@ -11,15 +11,20 @@ remote_theme: pages-themes/minimal@v0.2.0
 
 defaults:
   - scope:
-      path: ""
+      path: "/shows/"
       type: "shows"
     values:
       layout: "show"
   - scope:
-      path: ""
+      path: "/characters/"
       type: "characters"
     values:
       layout: "character"
+  - scope:
+      path: "/pages/"
+      type: "pages"
+    values:
+      layout: "page"
 
 plugins:
   - jekyll-remote-theme
