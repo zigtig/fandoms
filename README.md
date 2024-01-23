@@ -5,8 +5,6 @@ These are some of the shows and characters
 <https://zigtig.github.io/fandoms/>
 
 # Shows
-{{ site.collections }}
-
 {% include shows_list.html %}
 
 # Characters
