@@ -1,6 +1,6 @@
 {% for character in site.characters %}
   <li>
-    <a href="{{ site.baseurl }}{% link character.url %}">{{ character.name }}</a> 
+    <a href="{{ site.baseurl }}/characters/{{ character.url }}">{{ character.name }}</a> 
     ({{ character.show }})
   </li>
 {% endfor %}
