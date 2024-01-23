@@ -1,8 +1,10 @@
-{% for character in site.characters %}
-  <li>
-    <a href="{{ site.baseurl }}{{ character.url }}">
-      {{ character.name }}
-    </a> 
-    ({{ character.show }})
-  </li>
-{% endfor %}
+<ul>
+  {% for character in site.characters %}
+    <li>
+      <a href="{{ site.baseurl }}{{ character.url }}">
+        {{ character.name }}
+      </a> 
+      ({{ character.show }})
+    </li>
+  {% endfor %}
+</ul>
