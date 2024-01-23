@@ -2,7 +2,7 @@
 
 These are some of the shows and characters
 
-https://zigtig.github.io/fandoms/
+<https://zigtig.github.io/fandoms/>
 
 # Shows
 {% include shows_list.html %}
