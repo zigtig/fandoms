@@ -14,4 +14,4 @@ paginate_path: /page:num
 per_page: 3
 show_downloads: false
 google_analytics: G-BTYGFCLRKR
-baseurl: /fandoms
+baseurl: /fandoms/
