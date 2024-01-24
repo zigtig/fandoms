@@ -1,6 +1,6 @@
 # Animes I'm into! <3
 
-These are some of the shows and characters
+These are some of the shows and characters. they will show here
 
 <https://zigtig.github.io/fandoms/>
 
