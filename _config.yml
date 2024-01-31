@@ -13,7 +13,7 @@ plugins:
   - jekyll-paginate
   - jekyll-relative-links
 show_downloads: false
-google_analytics: G-BTYGFCLRKR
+google_analytics: G-VH529SPHJW
 baseurl: /fandoms
 remote_theme: pages-themes/minimal@v0.2.0
 
